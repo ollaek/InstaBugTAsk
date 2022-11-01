@@ -13,19 +13,19 @@ Body {
      }
 
 Create Chat:
-Post http://localhost:3000/api/v1/applications/{Application Token}/chats
+Post http://localhost:3000/api/v1/applications/{ApplicationToken}/chats
 
 Get Chat:
-Get http://localhost:3000/api/v1/applications/{Application Token}/chats/{Chat Id}
+Get http://localhost:3000/api/v1/applications/{ApplicationToken}/chats/{ChatId}
 
 Add Message:
-Post http://localhost:3000/api/v1/applications/{Application Token}/{Chat Id}/messages
+Post http://localhost:3000/api/v1/applications/{ApplicationToken}/{ChatId}/messages
 body {
     "message":"test message"
 }
 
 search:
-Get http://localhost:3000/api/v1/applications/{Application Token}/{Chat Id}/messages/search?query={search Token}
+Get http://localhost:3000/api/v1/applications/{ApplicationToken}/{ChatId}/messages/search?query={searchToken}
 
 
 Issues that faced me: 
